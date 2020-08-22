@@ -17,7 +17,7 @@ class Home extends CI_Controller {
         $this->bt_breaking_most_read = $this->cache->memcached->get('bt_breaking_most_read');
         //$this->load->model('Users_model');
         //$this->load->helper('form');
-        $this->APP_KEY = 'APP_KEY=2theWorldwar';
+        $this->APP_KEY = 'APP_KEY=key';
         $this->APP_KEY_ID = array(
             'APP_ID' => 1,
             'APP_KEY' => '2theWorldwar'

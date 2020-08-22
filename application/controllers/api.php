@@ -15,7 +15,7 @@ class Api extends CI_Controller {
 
     public function api_pages() {
         $machine_code = $this->input->post("MACHINE_KEY");
-        if ($machine_code == 'romy_dosto_emran') {
+        if ($machine_code == 'code') {
             $caches = $this->cache->memcached->get('bt_cache_pages');
             if (!$caches) {
                 $url = main_site_url('api/mobile_api/get_pages?APP_ID=1');
@@ -23,7 +23,7 @@ class Api extends CI_Controller {
                         array(
                             'url' => $url,
                             'post_data' => array(
-                                'APP_KEY' => '2theWorldwar'
+                                'APP_KEY' => 'key'
                             )
                         )
                 );
@@ -115,7 +115,7 @@ class Api extends CI_Controller {
         if ($machine_code == 'romy_dosto_emran') {
             $cache_keys = 'bt_cache_category_pages_';
             $post_data = array();
-            $post_data['APP_KEY'] = '2theWorldwar';
+            $post_data['APP_KEY'] = 'key';
             $url = main_site_url('api/mobile_api/get_contents?APP_ID=1');
             if (!empty($content_types)) {
                 $cache_keys = $cache_keys . $content_types;
@@ -174,7 +174,7 @@ class Api extends CI_Controller {
         $caches = $this->cache->memcached->get($cache_keys);
         if (!$caches) {
             $url = main_site_url('api/mobile_api/get_contents?APP_ID=1&content_id=' . $content_id);
-            $post_data['APP_KEY'] = '2theWorldwar';
+            $post_data['APP_KEY'] = 'key';
             $response = curl_api_call(
                     array(
                         'url' => $url,
@@ -199,7 +199,7 @@ class Api extends CI_Controller {
     public function api_tabs() {
         $machine_code = $this->input->post("MACHINE_KEY");
         $data = array();
-        if ($machine_code == 'romy_dosto_emran') {
+        if ($machine_code == 'code') {
             $data['tabs'] = array(
                 array(
                     'id' => '1',

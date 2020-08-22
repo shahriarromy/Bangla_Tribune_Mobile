@@ -9,7 +9,7 @@ class Feed extends CI_Controller {
         parent::__construct();
         $this->load->model('common');
         $this->load->driver('cache');
-        $this->APP_KEY = 'APP_KEY=2theWorldwar';
+        $this->APP_KEY = 'APP_KEY=key';
         $this->api_url = 'http://www.banglatribune.com/api/mobile_api/get_contents?APP_ID=1';
         //$this->api_url_with_limit_for_news = $this->api_url.'&start=0&limit=10&content_types=news&pages=';
         $this->detailed_article = $this->api_url . '&content_id=';

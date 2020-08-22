@@ -9,7 +9,7 @@ class Cron extends CI_Controller {
         parent::__construct();
         $this->load->model('common');
         $this->load->driver('cache');
-        $this->APP_KEY = 'APP_KEY=2theWorldwar';
+        $this->APP_KEY = 'APP_KEY=key';
         $this->api_url = main_site_url('api/mobile_api/get_contents?APP_ID=1');
         // all en links
         $this->api_url_en = 'http://en.banglatribune.com/api/mobile_api/get_contents?APP_ID=1';
