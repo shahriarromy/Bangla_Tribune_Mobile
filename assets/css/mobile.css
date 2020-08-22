@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2015, 3:14:53 PM
+    Author     : Shahriar Raihan Romy
+*/
+body {
+    font-family: SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif!important;
+    font-size: 16px;
+    color: #000;
+    cursor: default;
+    line-height: normal;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+a {
+    color: #336699;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+.h2, h2 {
+    font-size: 17px;
+}
+.db {display: block;}
+.oh {overflow: hidden;}
+.clear {clear: both;height: 1px;overflow: hidden;}
+.w300 {width: 300px;}
+.f_en {font-family: Arial, Helvetica, sans-serif;}
+.fs12 {font-size: 12px;}
+.fs13 {font-size: 13px;}
+.fs14 {font-size: 14px;}
+.fs15 {font-size: 15px;}
+.fs16 {font-size: 16px;}
+.fs17 {font-size: 17px;}
+.fs18 {font-size: 18px;}
+.fs19 {font-size: 19px;}
+.fs20 {font-size: 20px;}
+.mauto {margin: 0 auto;}
+.b { font-weight: bold; }
+.bgcc { background-color: #ccc; }
+.excerpt_more span {display: none;}
+.fl {float: left;}
+.fr {float: right;}
+.p10 {padding: 10px;}
+.mb10 {margin-bottom: 10px;}
+.pb10 {padding-bottom: 10px;}
+.mt10 {margin-top: 10px;}
+.pt10 {padding-top: 10px;}
+.dn {display: none;}
+.mr5 {margin-right: 5px;}
+.bb1 {border-bottom: 1px solid #666;}
+.bb1cc {border-bottom: 1px solid #ccc;}
+.bgw {background-color: #fff;}
+.alignleft {float: left;}
+.aligncenter{text-align: center}
+.alignright{text-align: right}
+#content ul, #content ol {
+    padding-left: 30px;
+}
+img {
+    max-width: 100%;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    height: auto;
+}
+/*----------breadcrumb---------*/
+.breadcrumb {
+    border-bottom: 1px solid #ccc;
+    color: #999;
+    line-height: 30px;
+    margin: 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.breadcrumb ul {
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.breadcrumb ul a {
+    color: #19232d;
+    float: left;
+    text-decoration: none;
+}
+.breadcrumb ul li {
+    float: left;
+    padding-right: 10px;
+}
+.breadcrumb ul li::before {
+    content: "\e813";
+    float: left;
+    font-family: fontello;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.breadcrumb ul li:first-child::before {
+    content: "";
+    margin: 0;
+}
+/*----------breadcrumb---------*/
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.title_time_author_holder .title_holder {
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.title_time_author_holder .title_holder .subtitle {
+    color: #333335;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+}
+.title_time_author_holder .title_holder .title {
+    color: #000;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.time_info {
+    line-height: 30px;
+    padding-top: 4px;
+}
+.time_info,
+.time_info .author {
+    color: #888;
+    overflow: hidden;
+}
+.author_holder {
+    border-right: 1px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.author::before {
+    content: '\e800';
+    font-family: fontello;
+    margin: 0px 5px 0px 2px;
+}
+.summery {
+    border-bottom: 1px solid #ccc;
+    line-height: normal;
+    overflow-wrap: break-word;
+}
+.summery p {
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.mediaContent.alignleft {
+    margin-right: 5px;
+}
+.mediaContent, .article .imgContainer img {
+    max-width: 100%;
+}
+.mediaContent {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(204, 204, 204, 0.4);
+}
+.media_caption {
+    color: #333;
+    font-size: 14px;
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 7px;
+}
+/*----------------footer-----------*/
+.first_row {
+    border-top: 2px solid #d71f1f;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.footer_item {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+.first_row .footer_item span {
+    display: block;
+    line-height: 43px;
+}
+.first_row .footer_item span.editor::before {
+    content: "\e80e";
+    font-family: fontello;
+    padding-right: 15px;
+}
+.first_row .footer_item span.publish::before {
+    content: "\e80b";
+    font-family: fontello;
+    padding-right: 15px;
+}
+.third_row {
+    background: rgba(104,0,0,1);
+    background: -moz-linear-gradient(left, rgba(104,0,0,1) 0%, rgba(3,1,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(104,0,0,1)), color-stop(100%, rgba(3,1,0,1)));
+    background: -webkit-linear-gradient(left, rgba(104,0,0,1) 0%, rgba(3,1,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(104,0,0,1) 0%, rgba(3,1,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(104,0,0,1) 0%, rgba(3,1,0,1) 100%);
+    background: linear-gradient(to right, rgba(104,0,0,1) 0%, rgba(3,1,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680000', endColorstr='#030100', GradientType=1 );
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 5px;
+}
+.third_row span {
+    color: #fff;
+    line-height: 35px;
+}
+@media only screen and (max-width:768px){
+    .footer_item {
+        float: none;
+        width: 100%;
+    }
+}

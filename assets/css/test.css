@@ -1,0 +1,236 @@
+/*.header .navbar-collapse {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 54px;
+    bottom: 0;
+    z-index: 1;
+    overflow-y: scroll;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 0
+}
+.header .navbar-collapse ul {
+    width: 70%;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    padding-top: 10px
+}
+.header .menu ul li {
+    width: 97%;
+    margin: 5px 0;
+    padding-left: 3%;
+    text-align: left;
+}
+.header .menu ul li a {
+    color: #005689
+}*/
+/*a.menu_icon:hover {
+    background-position: -1px -2px;
+    border-color: #848484
+}
+a.desktop_icon:hover {
+    background-position: -71px -36px;
+    border-color: #848484
+}*/
+
+/*.login {
+    margin-right: 10px;
+    background: url(images/sprite-1x.png) no-repeat scroll -90px -45px;
+    color: #FFF;
+    display: inline-block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 18px;
+    background-image: -webkit-image-set(url(images/sprite-1x.png) 1x, url(images/sprite-2x.png) 2x);
+    background-image: image-set(url(images/sprite-1x.png) 1x, url(images/sprite-2x.png) 2x)
+}*/
+/*.clear {
+    clear: both
+}
+.menu {
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 10px 0 0
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    width: 48%;
+    margin: 5px 1%;
+    padding: 0
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: #dcdcdc
+}
+.header_content {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 7px 10px 13px
+}
+.main_image_wraper {
+    position: relative
+}
+.left_nav {
+    text-align: left;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    bottom: 0
+}
+.right_nav {
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    bottom: 0
+}*/
+
+/*.right_nav>span {
+    opacity: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 72px;
+    color: #fff;
+    line-height: 200px
+}
+.only_header {
+    display: none
+}
+#header_top .only_header {
+    display: block
+}
+#header_top #innerMenuDiv {
+    width: 30%;
+    float: right;
+    height: 764px
+}
+#header_top .member_info {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    background-color: #2D2D2D;
+    margin-right: 6px;
+    padding: 20px;
+    color: #fff
+}
+#header_top .login_button,
+#header_top .logout_button {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 4px
+}
+#header_top .logout_button {
+    background-color: #999;
+    padding: 5px 10px;
+    color: #000;
+    box-shadow: 1px 1px 3px #000
+}
+#header_top .login_button {
+    background-color: #005689;
+    padding: 7px 30px;
+    color: #FFF
+}*/
+/*@media handheld and (max-width: 242px),
+screen and (max-width: 242px) {
+    .header {
+        height: 45px
+    }
+    .header_content {
+        box-shadow: none;
+        background-color: transparent
+    }
+    a.desktop_icon {
+        display: none
+    }
+    .menu ul li {
+        float: none;
+        width: auto
+    }
+}*/
+
+/*.trans_back span {
+    transition: background 0s 0.3s
+}
+.trans_back span::before,
+.trans_back span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s
+}
+.trans_back span::before {
+    transition-property: top, transform
+}
+.trans_back span::after {
+    transition-property: bottom, transform
+}*/
+/*.trans_back.is-active {
+    background-color: #F0F0F0
+}
+.trans_back.is-active span {
+    background: none
+}
+.trans_back.is-active span::before {
+    top: 0;
+    transform: rotate(45deg)
+}
+.trans_back.is-active span::after {
+    bottom: 0;
+    transform: rotate(-45deg)
+}
+.trans_back.is-active span::before,
+.trans_back.is-active span::after {
+    transition-delay: 0s, 0.3s
+}*/
+
+@media screen and (min-width: 800px) {
+/*    .header .menu {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-top: 0
+    }
+    .header .menu ul {
+        width: 300px;
+        background-color: #f7f7f7;
+        overflow: hidden;
+        padding-top: 10px
+    }
+    .header .menu ul li {
+        width: 97%;
+        margin: 5px 0;
+        padding-left: 3%
+    }
+
+    .alignleft {
+        float: left;
+        margin-right: 10px
+    }
+    .alignright {
+        float: right;
+        margin-left: 10px
+    }*/
+
+}
+/*@keyframes show_anchor {
+    from {
+        bottom: -75px
+    }
+    to {
+        bottom: 0
+    }
+}
+@keyframes hide_anchor {
+    to {
+        bottom: -75px
+    }
+    from {
+        bottom: 0
+    }
+}*/
