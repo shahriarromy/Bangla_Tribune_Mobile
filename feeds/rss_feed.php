@@ -54,11 +54,11 @@ class rss_feed {
      * @param string $site_name the name of your site
      * @param bool $full_feed flag for full feed (all topic content)
      */
-    private $APP_ID = '1807042432871602';
-    private $APP_SECRET = '55fab201d9e08930aa21508c26181e9a';
-    private $PAGE_ID = '237518317000912';
-    //private $ACCESS_TOKEN = 'EAAZArftpOLLIBAJZB8rZB7CYPOatrx73ESj0hlpanN69dLbaSoH4bt5hZAZBfSK18PhTS4TR2GSevc39vEQTJJlTmrcgKCBCPko5BWwvL8ZAWO8Jl3cauJ3G6eYV7tjZAFIMwC0KglfiyNTicPp0u54IAX5YeEM4qoVQPwUiPuOoAZDZD';
-    private $ACCESS_TOKEN = 'EAAZArftpOLLIBAHcDzOh6bKi55amREoZB6EKWZA1ttZAZCC4UdZBpa1c6bnsZCe7zIToVUIeXS0hdKdeVK7WzZCyWhXTbAiajZAsmZCjmPCkZBraiBvhtRtSzmccszZBEIgl91ZAjhbx7rZBIvqeuNgiW1bC4S4fSZADMerLxnm2wEANlgqHu0d48YTMtGH';
+    private $APP_ID = '';
+    private $APP_SECRET = '';
+    private $PAGE_ID = '';
+    //private $ACCESS_TOKEN = '';
+    private $ACCESS_TOKEN = '';
     private $client;
     private $is_development = false;
     private $is_published = false;
